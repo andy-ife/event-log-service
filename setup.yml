@@ -1,0 +1,13 @@
+# To see the list of valid variables in Bahmni please refer to: 
+# https://bahmni.atlassian.net/wiki/display/BAH/List+Of+Configurable+Installation+Variables
+
+timezone: Etc/UTC
+implementation_name: default
+selinux_state: disabled
+
+# specifying the postgres repo is only applicable for Bahmni 0.91 or earlier
+# postgres_repo_rpm_name: pgdg-centos92-9.2-7.noarch.rpm
+
+# Specifying the RPM release repo, for Bahmni 0.92 or earlier
+bahmni_repo_url: https://repo.mybahmni.org/releases/
+
