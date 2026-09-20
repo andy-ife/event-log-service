@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.bahmni</groupId>
@@ -18,7 +18,7 @@
     <modules>
         <module>event-log-service-webapp</module>
     </modules>
-   <build>
+    <build>
         <extensions>
             <extension>
                 <groupId>org.kuali.maven.wagons</groupId>
@@ -26,7 +26,7 @@
                 <version>1.2.1</version>
             </extension>
         </extensions>
-   </build>
+    </build>
     <repositories>
         <repository>
             <id>sonatype-nexus-snapshots</id>
@@ -87,14 +87,14 @@
                 <updatePolicy>interval:10080</updatePolicy>
             </snapshots>
         </repository>
-       <repository>
-           <id>repo.mybahmni.org</id>
-           <name>bahmni-artifactory-snapshots</name>
-           <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
-           <snapshots>
-               <updatePolicy>always</updatePolicy>
-           </snapshots>
-       </repository>
+        <repository>
+            <id>repo.mybahmni.org</id>
+            <name>bahmni-artifactory-snapshots</name>
+            <url>http://repo.mybahmni.org.s3.amazonaws.com/artifactory/snapshot</url>
+            <snapshots>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
         <repository>
             <id>openmrs-repo-modules</id>
             <name>Modules</name>
